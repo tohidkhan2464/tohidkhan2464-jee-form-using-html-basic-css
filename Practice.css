@@ -1,0 +1,141 @@
+.header{
+    height: 101px;
+    width: 1200px;
+}
+.dohe{
+    height: 101px;
+    width: 335px;
+    float: left;
+    background-color: aqua;
+}
+.jee{
+    height: 101px;
+    width: 535px;
+    float: left;
+    background-color: beige;
+}
+.nta{
+    height: 101px;
+    width: 330px;
+    float: left;
+    background-color: blueviolet;
+}
+.home{
+    height: 40px;
+    width: 1200px;
+    background-color: darkblue;
+    color: white;
+}
+.home-tab{
+    height: 30px;
+    width: 318px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 20px;
+    float: left;
+    border-right: 2px solid black;
+    font-size: 20px;
+}
+.blank-home{
+    height: 40px;
+    width: 860px;
+    float: left;
+}
+.personal-details{
+    width: 1200px;
+    height: 178px;
+    background-color: blanchedalmond;
+    margin-top: 5px;
+}
+.personal-col1{
+    height: 145px;
+    width: 340px;
+    background-color: blanchedalmond;
+    float: left;
+    text-align: right;
+    font-size: 18px;
+}
+.personal-col2{
+    /* height: 145px; */
+    float: left;
+    padding-left: 20px;
+}
+.present-address{
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    height: 300px;
+    width: 1200px;
+}
+.present-col1{
+    height: 265px;
+    width: 340px;
+    /* background-color:white; */
+    float: left;
+    text-align: right;
+    font-size: 19px;
+}
+.permanent-address{
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    height: 190px;
+    width: 1200px;
+}
+.permanent-col1{
+    height: 155px;
+    width: 340px;
+    /* background-color:white; */
+    float: left;
+    text-align: right;
+    font-size: 19px;
+}
+.password{
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    height: 115px;
+    width: 1200px;
+}
+.password-col1{
+    height: 68px;
+    width: 340px;
+    /* background-color:white; */
+    float: left;
+    text-align: right;
+    font-size: 19px;
+}
+.pin{
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    height: 145px;
+    width: 1200px;
+}
+.pin-col1{
+    height: 40px;
+    width: 340px;
+    /* background-color:white; */
+    float: left;
+    text-align: right;
+    font-size: 19px;
+}
+.submit{
+    margin-left: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+    border-style: solid;
+    transition-property: all;
+}
+.submit:hover{
+    background-color: black;
+    color:  white;
+    border-style: double;
+    border-width: 2px;
+    border-color: white;
+}
+.odd:hover{
+    background-color: cyan;
+    color: gold;
+}
+.even:hover{
+    background-color: mediumspringgreen;
+    color: chocolate;
+}

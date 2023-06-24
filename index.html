@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jee Main Form</title>
+    <link rel="stylesheet" href="Practice.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="dohe">
+          <img src="DOHE.png" alt="Department of Higher Education" width="340px" height="101px"/>
+        </div>
+        <div class="jee">
+          <img src="JEE.png" alt="JEE Mains" width="540px" height="101px" />
+        </div>
+        <div class="nta">
+          <img src="NTA.png" alt="NTA" width="335px" height="101px" />
+        </div>
+      </div>
+      <div class="home">
+        <div class="home-tab">🏡Home</div>
+        <div class="blank-home"></div>
+      </div>
+      <div class="personal-details">
+        <form>
+          <fieldset>
+            <legend>Personal Details</legend>
+            <div class="personal-col1">
+                Candidate's Name  :<br>
+                Father/Gaurdian Name  :<br>
+                Mother/Gaurdian Name  :<br>
+                Date of Birth  :<br>
+                Gender  :<br>
+                Type of Identification  :<br>
+                Enter Valid Govt Identity Number  :<br>
+
+            </div>
+            <div class="personal-col2">
+                <input type="text" class="odd" name="name" placeholder="Enter Your Name" >
+                <br>
+                <input type="text" class="even" name="father-name" placeholder="Enter your father/Gaurdian Name" >
+                <br>
+                <input type="text" name="mother-name" class="odd" placeholder="Enter your mother/gaurdian Name">
+                <br>
+                <input type="date" name="dob" class="even" >
+                <br>
+                <input type="radio" value="m" name="gender"  /> Male
+                <input type="radio" value="f" name="gender"  /> Female
+                <input type="radio" value="o" name="gender"  /> Other
+                <br>
+                <select class="even">
+                    <option>Select Indentification Type</option>
+                    <option value="Aadhar Card">Aadhar Card</option>
+                    <option value="Driving Licencse">Driving Licencse</option>          
+                    <option value="PAN Card">PAN Card</option>
+                    <option value="Voter ID">Voter ID</option>
+                  </select>
+                  <br>
+                  <input type="number" class="odd" name="id-number" placeholder="Enter Valid ID Number" >
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="present-address">
+        <form>
+            <fieldset>
+                <legend>Present Address</legend>
+                <div class="present-col1">
+                    Premesis No./Name  :<br>
+                    Sub-Loacality(optional)  :<br>
+                    Locality  :<br>
+                    Country  :<br>
+                    State  :<br>
+                    District  :<br>
+                    Pin-code  :<br>
+                    E-mail  :<br>
+                    Confirm E-mail  :<br>
+                    Mobile Number  :<br>
+                    Confirm Mobile Number  :<br>
+                    Alternate Contact Info(Optional)  :<br>    
+                </div>
+                <div class="personal-col2">
+                  <input type="text" name="premesis-name" class="even" placeholder="Enter your Premesis No." >
+                  <br>
+                  <input type="text" name="sub-locality" class="odd" placeholder="Enter your Sub-Loacality">
+                  <br>
+                  <input type="text" name="locality" placeholder="Enter your Locality" class="even" >
+                  <br>
+                  <input type="text" name="country" placeholder="Enter your Country"  class="odd">
+                  <br>
+                  <input type="text" name="state" placeholder="Enter your State"  class="even">
+                  <br>
+                  <input type="text" name="district" placeholder="Enter your District"  class="odd">
+                  <br>
+                  <input type="number" name="pin-code" placeholder="Enter your Pin-code"  class="even">
+                  <br>
+                  <input type="email" name="email" placeholder="Enter your E-mail"  class="odd">
+                  <br>
+                  <input type="email" name="Ccnfirm-email" placeholder="Confirm your E-mail"  class="even">
+                  <br>
+                  <input type="number" name="phone" placeholder="Enter your Mobile No"  class="odd">
+                  <br>
+                  <input type="number" name="confirm-phone" placeholder="Confirm your Mobile No"  class="even">
+                  <br>
+                  <input type="number" name="alt-mobile" placeholder="Enter Alternate Contact" class="odd">
+                  <br>
+              </div>
+            </fieldset>
+        </form>
+      </div>
+      <div class="permanent-address">
+        <form>
+          <fieldset>
+            <legend>Permanent Address</legend>
+            <div class="permanent-col1">
+              Premesis No./Name  :<br>
+              Sub-Loacality(optional)  :<br>
+              Locality  :<br>
+              Country  :<br>
+              State  :<br>
+              District  :<br>
+              Pin-code  :<br>
+            </div>
+            <div class="personal-col2">
+              <input type="text" name="perma-premesis-name" placeholder="Enter your Premesis No."  class="even">
+              <br>
+              <input type="text" name="perma-sub-locality" placeholder="Enter your Sub-Loacality" class="odd">
+              <br>
+              <input type="text" name="perma-locality" placeholder="Enter your Locality"  class="even">
+              <br>
+              <input type="text" name="perma-country" placeholder="Enter your Country"  class="odd">
+              <br>
+              <input type="text" name="perma-state" placeholder="Enter your State"  class="even">
+              <br>
+              <input type="text" name="perma-district" placeholder="Enter your District"  class="odd">
+              <br>
+              <input type="number" name="perma-pin-code" placeholder="Enter your Pin-code"  class="even">
+              <br>
+          </fieldset>
+        </form>
+      </div>
+      <div class="password">
+        <form>
+          <fieldset>
+            <legend>Choose your Password</legend>
+            <div class="password-col1">
+              Password  :
+              <br>
+              Comfirm Password  :
+              <br>
+              Security question  :
+              <br>
+              Security Answer  :
+              <br>
+            </div>
+            <div class="personal-col2">
+              <input type="password" name="password" placeholder="Enter your Password"  class="odd">
+              <br>
+              <input type="password" name="comfirm-password" placeholder="Confirm Password"  class="even">
+              <br>
+              <select class="odd">
+                <option>Select security Question</option>
+                <option value="school">What is the name of your first school</option>
+                <option value="pet">What is the name of your first Pet</option>          
+                <option value="anime">What is your favourite anime</option>
+                <option value="movie">What is your favuorite movie</option>
+              </select>
+              <br>
+              <input type="password" class="even" name="security-answer" placeholder="Security Answer" >
+              <br>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="pin">
+        <form>
+          <fieldset>
+            <legend>Security Pin</legend>
+            <div class="pin-col1">
+              Enter Security Pin  :
+              <br>
+              Security Pin  
+            </div>
+            <div class="personal-col2">
+              <input type="text" name="pin" class="odd" placeholder="Enter Security Pin" >
+              <br>
+              WD23O0
+              <br><br>
+              <input class="even" type="submit"  name="submit" />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
